@@ -1,6 +1,69 @@
-body {
-    margin: 0;
+*{
+    box-sizing: border-box;
     padding: 0;
+    margin: 0;
+  }
 
-    background: rgb(255, 253, 253);
+body {
+    padding: 1vw;
+    font-family: 'Anonymous Pro', myFirstFont, monospace;
+    background: black;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li{
+    list-style-type: square
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-gap: 1.5em;
+    padding: 1vw;
+    border: 1px solid white;
+    height: 97vh;
+}
+
+.wrapper>div{
+    border: 1px solid white;
+    padding: 1vw;
+}
+
+.content{
+    position: relative
+}
+
+.side{
+    position: relative;
+    border-left: 1px solid white;
+    border-bottom: 1px solid white;
+}
+
+.menu{
+    position: relative;
+    padding: 0 20px;
+}
+.menu>li{
+    margin: 10px 0px;
+}
+
+.sub{
+    padding: 0px 20px;
+}
+.sub>li{
+    padding: 0 0 10px;
+}
+.sub>li>a:hover{
+    font-style: italic;
+    text-decoration: underline;
 }
