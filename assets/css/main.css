@@ -1,3 +1,8 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/Harbour-Medium.otf);
+  }
+
 *{
     box-sizing: border-box;
     padding: 0;
@@ -6,7 +11,7 @@
 
 body {
     padding: 1vw;
-    font-family: 'Anonymous Pro', myFirstFont, monospace;
+    font-family: 'Anonymous Pro', monospace;
     background: black;
     color: white;
     font-size: 12px;
@@ -66,4 +71,23 @@ li{
 .sub>li>a:hover{
     font-style: italic;
     text-decoration: underline;
+}
+
+.main{
+    text-align: left;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.titleMain{
+    font-family: myFirstFont,'Anonymous Pro';
+    font-size: 32px;
+}
+
+.mainContent{
+    font-family: 'Anonymous Pro';
+    font-size: 12px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
 }
