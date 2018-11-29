@@ -44,15 +44,6 @@ li{
     padding: 1vw;
 }
 
-.content{
-    position: relative
-}
-
-.side{
-    position: relative;
-    border-left: 1px solid white;
-    border-bottom: 1px solid white;
-}
 
 .menu{
     position: relative;
@@ -60,6 +51,11 @@ li{
 }
 .menu>li{
     margin: 10px 0px;
+}
+
+.home>a:hover{
+    font-style: italic;
+    text-decoration: underline;
 }
 
 .sub{
@@ -87,7 +83,7 @@ li{
 .mainContent{
     font-family: 'Anonymous Pro';
     font-size: 12px;
-    text-align: center;
+    text-align: left;
     width: 50%;
     margin: 0 auto;
 }
