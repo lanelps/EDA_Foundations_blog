@@ -33,15 +33,15 @@ li{
 .wrapper{
     display: grid;
     grid-template-columns: 1fr 6fr;
-    grid-gap: 1.5em;
-    padding: 1vw;
+    grid-gap: 20px;
+    padding: 20px;
     border: 1px solid white;
     height: 97vh;
 }
 
 .wrapper>div{
     border: 1px solid white;
-    padding: 1vw;
+    padding: 20px;
 }
 
 
