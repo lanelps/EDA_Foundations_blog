@@ -95,3 +95,9 @@ li{
     margin-right: auto;
     width: 70%;
 }
+
+.lane{
+    position: absolute;
+    bottom: 5vh;
+    right: 3vw;
+}
