@@ -78,6 +78,7 @@ li{
 .titleMain{
     font-family: myFirstFont,'Anonymous Pro';
     font-size: 32px;
+    position: fixed;
 }
 
 .mainContent{
