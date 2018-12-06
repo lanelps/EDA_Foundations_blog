@@ -101,3 +101,7 @@ li{
     bottom: 5vh;
     right: 3vw;
 }
+
+.title{
+    font-family: myFirstFont;
+}
