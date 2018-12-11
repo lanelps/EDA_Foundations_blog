@@ -26,6 +26,11 @@ a{
     cursor: pointer;
 }
 
+a:hover{
+    font-style: italic;
+    text-decoration: underline;
+}
+
 li{
     list-style-type: square
 }
@@ -53,20 +58,11 @@ li{
     margin: 10px 0px;
 }
 
-.home>a:hover{
-    font-style: italic;
-    text-decoration: underline;
-}
-
 .sub{
     padding: 0px 20px;
 }
 .sub>li{
     padding: 0 0 10px;
-}
-.sub>li>a:hover{
-    font-style: italic;
-    text-decoration: underline;
 }
 
 .main{
