@@ -1,1 +1,1 @@
-# lanelps.github.io
+# EDA_Foundations_blog
